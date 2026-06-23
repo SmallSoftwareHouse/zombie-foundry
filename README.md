@@ -1,39 +1,37 @@
 # Games Server Manager
 
-A tool to manage Source Engine dedicated servers (Left 4 Dead 2, ...) on Windows.
-Create, configure, start and monitor your servers from a single interface.
+**Games Server Manager (GSM)** is a lightweight terminal tool for setting up and
+managing dedicated **Source Engine** game servers (Left 4 Dead 2, and more to come).
+It wraps SteamCMD, server configuration, mods and day-to-day management behind a
+clean text-based interface — no manual file editing, no guesswork.
 
-> **Beta version** — currently in testing. Feedback and bug reports welcome.
+> ⚠️ **Beta** — This is an early test build. Things may change and bugs are expected.
+> Feedback is very welcome.
 
 ## Download
-Get the latest version from the **[Releases](../../releases/latest)** page:
-- **`gsm.exe`** — single self-contained executable (no installation).
+
+Grab the latest build from the [**Releases**](../../releases/latest) page and
+download `gsm.exe`.
 
 ## How to use
-1. Put `gsm.exe` in a **folder of your own** (Desktop, Documents, a dedicated folder) — **not** in `C:\Program Files` (it needs write access).
-2. Run `gsm.exe`.
-3. On first launch it creates its own folders (config, servers, logs, downloads) next to it. It is **portable**: everything stays in its folder.
 
-> The executable is not code-signed: Windows may show "Windows protected your PC" -> **More info** -> **Run anyway**. This is normal for a beta build.
+1. Put `gsm.exe` in its **own dedicated folder** (not in `Program Files`).
+2. Run it.
+3. On first launch it creates everything it needs next to itself
+   (`config`, `servers`, `logs`, `downloads`). It is fully **portable** — to move
+   or back it up, just copy the whole folder.
+
+The built-in wizard walks you through installing a server via SteamCMD, picking the
+game, maps and game modes, and getting it online.
 
 ## Requirements
-- Windows 10/11 (64-bit)
-- Internet connection (downloads server files via SteamCMD and checks for updates)
 
-## Updates
-The tool checks for updates automatically and tells you when to download the new version from this page.
+- Windows 10 / 11, 64-bit
+- An internet connection (SteamCMD downloads the server files)
 
----
+## Notes
 
-## Italiano
-Tool per la gestione di server dedicati Source Engine (Left 4 Dead 2, ...) su Windows.
-
-> **Versione beta** — in test. Segnalazioni e feedback benvenuti.
-
-**Download:** ultima versione dalla pagina **[Releases](../../releases/latest)** -> **`gsm.exe`** (eseguibile unico, nessuna installazione).
-
-**Uso:** metti `gsm.exe` in una cartella tua (non in `C:\Program Files`), avvialo; al primo avvio crea da solo le sue cartelle ed e' portable.
-
-> L'exe non e' firmato: se Windows avvisa -> **Ulteriori informazioni** -> **Esegui comunque**. Normale per una beta.
-
-**Requisiti:** Windows 10/11 (64-bit), connessione a Internet.
+- The executable is **unsigned**, so Windows SmartScreen may warn you on first run.
+  Choose *More info → Run anyway*.
+- **Updates:** the tool checks for new versions on startup and points you back to
+  the Releases page when one is available.
