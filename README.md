@@ -1,4 +1,4 @@
-# Games Server Manager
+﻿# Games Server Manager
 
 **Games Server Manager (GSM)** is a terminal application for installing, configuring
 and running dedicated **Source Engine** game servers — starting with **Left 4 Dead 2**,
@@ -8,6 +8,14 @@ SteamCMD commands, no scattered files to babysit.
 
 > ⚠️ **Beta** — This is an early test build. Features and behaviour may still change,
 > and bugs are expected. Feedback is very welcome.
+
+---
+
+## Screenshots
+
+| Splash screen | Main menu | Server menu |
+|---|---|---|
+| ![Splash](https://i.imgur.com/vknHm9x.png) | ![Main menu](https://i.imgur.com/EuolWQM.png) | ![Server menu](https://i.imgur.com/5x3UcZB.png) |
 
 ---
 
