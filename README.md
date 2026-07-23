@@ -2,7 +2,7 @@
   <img src="assets/gsm-logo.png" alt="Games Server Manager" width="200">
 </p>
 
-# Games Server Manager
+<h1 align="center">Games Server Manager</h1>
 
 **Games Server Manager (GSM)** is a terminal application for installing, configuring
 and running dedicated **Source Engine** game servers — starting with **Left 4 Dead 2**,
