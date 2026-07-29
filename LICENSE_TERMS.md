@@ -1,7 +1,7 @@
-# Games Server Manager — License Terms
+# Zombie Foundry — License Terms
 
-Plain-language terms for what you get when you buy a GSM license.
-Last updated: 22 July 2026.
+Plain-language terms for what you get when you buy a Zombie Foundry license.
+Last updated: 29 July 2026.
 
 These terms describe how the license works. They are written to be read, not to
 be impressive. If anything here is unclear, ask before buying:
@@ -11,7 +11,7 @@ be impressive. If anything here is unclear, ask before buying:
 
 ## 1. What you are buying
 
-A **perpetual license** to use Games Server Manager on **one computer**.
+A **perpetual license** to use Zombie Foundry on **one computer**.
 
 Perpetual means what it says: the license does not expire, and there is no
 subscription. The app you have keeps working, with the features your plan
@@ -34,40 +34,31 @@ used at checkout**. Keep both.
 This is the part worth reading carefully, because it is where most software
 gets vague.
 
-**New features are included for a limited window**, then that window ends:
+**Your license is tied to a major version** (1.x, 2.x, 3.x...), not to a
+window of time. Buying a license gives you every update released inside that
+major version — 1.0.0, 1.1.0, 1.9.3, however many come out — **for as long as
+that major version keeps being updated, with no expiry date.**
 
-| Plan | Window of new features included |
-|---|---|
-| Lite | none — you get the features available on the day you buy |
-| Pro | 1 year |
-| Max | 1 year |
-| Pro Early Access | 2 years |
+What is not included is the *next* major version. When 2.0.0 comes out, it is
+a separate purchase (see "Major version upgrades" below).
 
-**When the window ends, nothing is taken away from you.** The app keeps
-working. Every feature you already have keeps working. What stops is the
-unlocking of features released *after* your window closed: those stay locked
-until you renew.
+**Nothing is ever taken away from you.** The app keeps working. Every feature
+you already have keeps working, forever, on the major version you bought.
 
-We do not use the word "free updates for a year", because it implies something
-stops working afterwards. Nothing does.
+## 3. Major version upgrades
 
-## 3. Renewals (optional)
+When a new major version is released, moving to it is a paid upgrade — your
+existing license does not carry forward automatically, the same way buying
+one edition of a game does not give you the next one for free.
 
-You can extend your window by one year at any time: €10 for Pro, €20 for Max.
-Renewals are **entirely optional** — there is no automatic billing, no stored
-subscription, and nothing happens if you never renew.
+**If you buy close to the release of a new major version, we offer a
+discounted upgrade** to it, so you are not stuck paying twice in a short
+window. Exact pricing and eligibility for this discount will be announced
+alongside each major release.
 
-**A renewal is always added to the end of your current window, not to today's
-date.** Two consequences, both intentional:
-
-- Renewing early never wastes time you already paid for.
-- If your window closed some time ago, one renewal moves you forward by one
-  year from where it closed, not to the present. Catching up costs one renewal
-  per year missed.
-
-If catching up would cost more than simply buying a fresh license, the app will
-tell you so and point you at the cheaper option. We would rather you spend less
-than lose you as a customer.
+There is no subscription and no automatic billing: upgrading is always a
+one-time, optional purchase you choose to make when the next major version is
+out and you want what it adds.
 
 ## 4. Upgrades between plans
 
@@ -76,18 +67,18 @@ Max, Pro → Max). For now upgrades are handled by email: write to
 **SmallSoftwareHouse@gmail.com** and we send you the purchase link. We plan to
 offer them directly inside the app, and these terms will be updated when we do.
 
-An upgrade buys **features, not time**: your license key and your computer stay
-the same, and your update window is unchanged. If your window has already
-closed, upgrading unlocks the features you are entitled to as of that window —
-extending it further is a separate renewal.
+An upgrade between plans buys **features, not versions**: your license key and
+your computer stay the same, and the major version you are entitled to is
+unchanged. Moving to a newer major version is a separate purchase (see
+"Major version upgrades" above).
 
 ## 5. Updating the app is your choice
 
-You are never forced to update. When a new version exists, GSM tells you and
+You are never forced to update. When a new version exists, Zombie Foundry tells you and
 you decide. If you prefer the version you have, keep it.
 
 Previous releases stay available for download at
-[github.com/SmallSoftwareHouse/games-server-manager/releases](https://github.com/SmallSoftwareHouse/games-server-manager/releases)
+[github.com/SmallSoftwareHouse/zombie-foundry/releases](https://github.com/SmallSoftwareHouse/zombie-foundry/releases)
 so you can reinstall an older version if you ever need to.
 
 **One exception**, stated plainly: a version may be blocked, and updating made
@@ -96,13 +87,13 @@ maintenance.
 
 ## 6. Internet connection and our commitment to you
 
-GSM checks your license online when it starts. This is how the one-computer
+Zombie Foundry checks your license online when it starts. This is how the one-computer
 limit works.
 
 That means your license depends on our servers being reachable. We think you
 are owed a commitment in return:
 
-**If Games Server Manager is ever discontinued, we will publish a final build
+**If Zombie Foundry is ever discontinued, we will publish a final build
 that does not require online validation**, so that the perpetual license you
 bought stays usable regardless of what happens to us.
 
@@ -123,12 +114,11 @@ folder (a Pro feature) cannot be managed with Lite.
 
 ## 9. Refunds
 
-The 7-day trial exists so you can evaluate GSM before paying, so we do not
+The 7-day trial exists so you can evaluate Zombie Foundry before paying, so we do not
 offer refunds as a matter of course.
 
-Purchases are processed by **Lemon Squeezy**, which is the merchant of record
-for your order. Lemon Squeezy's own terms and refund policy apply to the
-transaction, and any statutory rights you have as a consumer are unaffected by
+Purchases are currently handled directly (manual PayPal transfer), not through
+an automated store. Your statutory rights as a consumer are unaffected by
 anything written here.
 
 ## 10. Changes to these terms
@@ -139,5 +129,5 @@ was.
 
 ---
 
-Games Server Manager is developed by Small Software House.
+Zombie Foundry is developed by Small Software House.
 Questions: **SmallSoftwareHouse@gmail.com**

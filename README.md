@@ -1,10 +1,10 @@
-﻿<p align="center">
-  <img src="assets/gsm-logo.png" alt="Games Server Manager" width="200">
+<p align="center">
+  <img src="assets/zombiefoundry-logo.png" alt="Zombie Foundry" width="200">
 </p>
 
-<h1 align="center">Games Server Manager</h1>
+<h1 align="center">Zombie Foundry & Friends</h1>
 
-**Games Server Manager (GSM)** is a terminal application for installing, configuring
+**Zombie Foundry** is a terminal application for installing, configuring
 and running dedicated **Source Engine** game servers — starting with **Left 4 Dead 2**,
 with more games planned. It puts the whole lifecycle of a dedicated server behind a
 clean, keyboard-driven text interface: no manual config editing, no remembering
@@ -37,8 +37,8 @@ SteamCMD commands, no scattered files to babysit.
   what is running and what needs attention.
 - **Start, stop and monitor.** Launch a server and keep an eye on it without
   leaving the tool.
-- **Portable by design.** Everything GSM needs is created next to the executable,
-  so a server setup can be moved or backed up by copying one folder.
+- **Portable by design.** Everything Zombie Foundry needs is created next to the
+  executable, so a server setup can be moved or backed up by copying one folder.
 
 > More capabilities (remote console, mod management, and additional games) are on
 > the roadmap.
@@ -47,14 +47,14 @@ SteamCMD commands, no scattered files to babysit.
 
 ## Download & install
 
-1. Download `gsm.exe` from the [**Releases**](../../releases/latest) page.
+1. Download `zombiefoundry.exe` from the [**Releases**](../../releases/latest) page.
    *(That is the only file you need — ignore the auto-generated "Source code"
    archives; they do not contain the application source.)*
-2. Place `gsm.exe` in its **own dedicated folder** — not inside `Program Files`,
-   and ideally not on your Desktop. A path like `C:\GameServers\GSM\` is perfect.
+2. Place `zombiefoundry.exe` in its **own dedicated folder** — not inside `Program Files`,
+   and ideally not on your Desktop. A path like `C:\GameServers\ZombieFoundry\` is perfect.
 3. Run it.
 
-On first launch GSM creates everything it needs right next to itself:
+On first launch Zombie Foundry creates everything it needs right next to itself:
 
 | Folder       | Contents                                  |
 |--------------|-------------------------------------------|
@@ -63,7 +63,7 @@ On first launch GSM creates everything it needs right next to itself:
 | `downloads`  | SteamCMD and downloaded files             |
 | `logs`       | Session logs                              |
 
-Because everything lives in that one folder, GSM is fully **portable**: to move it
+Because everything lives in that one folder, Zombie Foundry is fully **portable**: to move it
 to another disk or machine, or to back it up, just copy the whole folder.
 
 ---
@@ -87,9 +87,9 @@ to another disk or machine, or to back it up, just copy the whole folder.
 
 ## Updates
 
-GSM checks for new versions on startup. When an update is available it lets you
+Zombie Foundry checks for new versions on startup. When an update is available it lets you
 know and points you back to the [Releases](../../releases/latest) page, where you
-can download the newer `gsm.exe` and replace the old one — your `config`, `servers`
+can download the newer `zombiefoundry.exe` and replace the old one — your `config`, `servers`
 and other data are kept.
 
 ---
