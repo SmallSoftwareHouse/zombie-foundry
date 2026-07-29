@@ -2,7 +2,7 @@
   <img src="assets/zombiefoundry-logo.png" alt="Zombie Foundry" width="200">
 </p>
 
-<h1 align="center">Zombie Foundry & Friends</h1>
+<h1 align="center">Zombie Foundry <span style="font-size:0.5em; font-weight:normal; color:#888;">& Friends</span></h1>
 
 **Zombie Foundry** is a terminal application for installing, configuring
 and running dedicated **Source Engine** game servers — starting with **Left 4 Dead 2**,
