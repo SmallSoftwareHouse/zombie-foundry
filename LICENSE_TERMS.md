@@ -51,11 +51,6 @@ When a new major version is released, moving to it is a paid upgrade — your
 existing license does not carry forward automatically, the same way buying
 one edition of a game does not give you the next one for free.
 
-**If you buy close to the release of a new major version, we offer a
-discounted upgrade** to it, so you are not stuck paying twice in a short
-window. Exact pricing and eligibility for this discount will be announced
-alongside each major release.
-
 There is no subscription and no automatic billing: upgrading is always a
 one-time, optional purchase you choose to make when the next major version is
 out and you want what it adds.
