@@ -32,7 +32,7 @@ version isn't ruled out — it will happen if it's actually needed.
 
 | Splash screen | Main menu | Server menu |
 |---|---|---|
-| ![Splash](https://i.imgur.com/vknHm9x.png) | ![Main menu](https://i.imgur.com/EuolWQM.png) | ![Server menu](https://i.imgur.com/5x3UcZB.png) |
+| ![Splash](https://i.imgur.com/tQeHBj1.png) | ![Main menu](https://i.imgur.com/AfEhoWk.png) | ![Server menu](https://i.imgur.com/BOySrkQ.png) |
 
 ---
 
