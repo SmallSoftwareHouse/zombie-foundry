@@ -21,13 +21,10 @@ SteamCMD commands, no scattered files to babysit.
 
 Because a dedicated server is something you run in the background and rarely
 stare at — a terminal window is the natural fit, the same place SteamCMD and
-the server console already live. A TUI keeps the whole thing lightweight,
-fast to start, easy to run over SSH or on a headless machine, and free of the
-overhead a full graphical framework would add for what is, underneath,
-a sequence of forms and status lists. It is also just faster to build and
-keep polished as a solo project — a real GUI is a much bigger investment.
-Nothing here rules out a graphical version later if the project grows enough
-to justify it.
+the server console already live. A TUI keeps the whole thing lightweight and
+fast to start, without the overhead a full graphical framework would add for
+what is, underneath, a sequence of forms and status lists. A graphical
+version isn't ruled out — it will happen if it's actually needed.
 
 ---
 
