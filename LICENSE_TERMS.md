@@ -1,7 +1,9 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 29 July 2026.
+Last updated: 31 July 2026.
+
+Store: <https://smallsoftwarehouse.gumroad.com/>
 
 These terms describe how the license works. They are written to be read, not to
 be impressive. If anything here is unclear, ask before buying:
@@ -58,9 +60,9 @@ out and you want what it adds.
 ## 4. Upgrades between plans
 
 You can move up at any time by paying the price difference (Lite → Pro, Lite →
-Max, Pro → Max). For now upgrades are handled by email: write to
-**SmallSoftwareHouse@gmail.com** and we send you the purchase link. We plan to
-offer them directly inside the app, and these terms will be updated when we do.
+Max, Pro → Max). Buy the matching upgrade in our store and enter your existing
+license key at checkout: the upgrade is applied to that key, which stays the
+same. If anything goes wrong, write to **SmallSoftwareHouse@gmail.com**.
 
 An upgrade between plans buys **features, not versions**: your license key and
 your computer stay the same, and the major version you are entitled to is
@@ -112,9 +114,10 @@ folder (a Pro feature) cannot be managed with Lite.
 The 7-day trial exists so you can evaluate Zombie Foundry before paying, so we do not
 offer refunds as a matter of course.
 
-Purchases are currently handled directly (manual PayPal transfer), not through
-an automated store. Your statutory rights as a consumer are unaffected by
-anything written here.
+Purchases go through our store on **Gumroad**, which acts as merchant of
+record: Gumroad takes the payment, handles any applicable tax and issues the
+receipt. Your statutory rights as a consumer are unaffected by anything
+written here.
 
 ## 10. Changes to these terms
 
