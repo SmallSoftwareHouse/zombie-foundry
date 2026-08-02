@@ -95,6 +95,17 @@ to another disk or machine, or to back it up, just copy the whole folder.
 - From there, start the **create-server wizard** to install your first server.
 - The executable is **unsigned**, so Windows SmartScreen may show a warning on the
   first launch. Choose **More info → Run anyway**.
+- **Curious about the flag?** We ran the current release through VirusTotal
+  ourselves: **69/71 engines report it clean**. The 2 that don't (Bkav Pro,
+  Trapmine) use generic heuristic/ML labels, not a named malware signature —
+  and the sandbox behavior report shows no actual malicious detection.
+  Microsoft Defender flagged an earlier scan too, but a re-analysis has since
+  cleared it. See the full report and judge for yourself:
+  [VirusTotal report](https://www.virustotal.com/gui/file/ae6bbb5cac51ff03f64500017b07ee4f9c6430cbbf90bf9504dfec07a0b34723/behavior).
+  We've filed false-positive reports with the remaining two vendors, but
+  we're not waiting on their replies to be upfront about this — as a small
+  independent project we may just not be a priority for them to review
+  quickly.
 
 ---
 
