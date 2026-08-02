@@ -58,6 +58,9 @@ version isn't ruled out — it will happen if it's actually needed.
   leaving the tool.
 - **Portable by design.** Everything Zombie Foundry needs is created next to the
   executable, so a server setup can be moved or backed up by copying one folder.
+  Note: your license is tied to this specific computer and folder, so moving it
+  elsewhere requires re-authorizing it first (the in-app **F2** transfer, from the
+  license screen) — otherwise the moved copy won't validate.
 
 > More capabilities (remote console, mod management, and additional games) are on
 > the roadmap.
