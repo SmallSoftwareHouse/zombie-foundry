@@ -1,7 +1,7 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 31 July 2026.
+Last updated: 4 August 2026.
 
 Store: <https://smallsoftwarehouse.gumroad.com/>
 
@@ -96,14 +96,26 @@ bought stays usable regardless of what happens to us.
 
 ## 7. Moving to another computer
 
-One license, one computer. If you change machine, write to
-**SmallSoftwareHouse@gmail.com** and we will release the license so you can
-activate it on the new one. There is no charge for this.
+One license, one computer. If you change machine, open Zombie Foundry on the
+new computer and enter your license key together with the email address you
+used at checkout: the app detects that the key is tied to a different device
+and offers a self-service transfer (press F2). We then send a confirmation
+link to that email address — clicking it completes the transfer. This
+confirms you actually own that inbox, and it takes effect as soon as you
+click. There is no charge for this.
+
+If self-service transfer is ever unavailable for some reason, write to
+**SmallSoftwareHouse@gmail.com** and we will sort it out manually.
 
 ## 8. Trial
 
 A 7-day trial with Pro features on one server is available before you buy. One
 trial per email address and per computer.
+
+When you decide to buy, enter your trial license key in the optional
+"License Key" field at checkout: your trial converts to the plan you bought,
+**keeping the same key** — no new key, nothing to re-enter in the app. Leave
+the field blank and you get a separate new key instead.
 
 Servers you created during the trial are not deleted if you then buy a smaller
 plan. Note that Lite uses a fixed install folder: servers created in a custom
@@ -118,6 +130,11 @@ Purchases go through our store on **Gumroad**, which acts as merchant of
 record: Gumroad takes the payment, handles any applicable tax and issues the
 receipt. Your statutory rights as a consumer are unaffected by anything
 written here.
+
+Prices are listed in EUR, but Gumroad charges everyone in **US Dollars**: the
+amount is converted at checkout, and if your card is in a different currency
+your bank may convert it again and charge its own fee on top. This is
+Gumroad's own payment processing, not something we control.
 
 ## 10. Changes to these terms
 
