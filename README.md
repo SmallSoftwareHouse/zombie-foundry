@@ -85,9 +85,6 @@ On first launch Zombie Foundry creates everything it needs right next to itself:
 | `downloads`  | SteamCMD and downloaded files             |
 | `logs`       | Session logs                              |
 
-Because everything lives in that one folder, Zombie Foundry is fully **portable**: to move it
-to another disk or machine, or to back it up, just copy the whole folder.
-
 ---
 
 ## First run
