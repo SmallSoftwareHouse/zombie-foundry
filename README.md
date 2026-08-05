@@ -112,17 +112,18 @@ On first launch Zombie Foundry creates everything it needs right next to itself:
 ## Requirements
 
 - **Windows 10 / 11, 64-bit**
-- An **internet connection** (SteamCMD downloads the server files)
+- An **internet connection**
 - Enough free disk space for the game server you install (a few GB per server)
 
 ---
 
 ## Updates
 
-Zombie Foundry checks for new versions on startup. When an update is available it lets you
-know and points you back to the [Releases](../../releases/latest) page, where you
-can download the newer `zombiefoundry.exe` and replace the old one — your `config`, `servers`
-and other data are kept.
+Zombie Foundry checks for new versions on startup. When an update is available, it can
+update itself: download the new build, verify it, and swap it in with a single
+keypress — no manual download, no replacing files by hand. Your `config`, `servers`
+and other data are kept. If self-update isn't available for a given release, the tool
+falls back to pointing you at the [Releases](../../releases/latest) page instead.
 
 ---
 
