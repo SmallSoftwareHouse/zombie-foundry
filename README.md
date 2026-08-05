@@ -16,10 +16,9 @@ SteamCMD commands, no scattered files to babysit.
 > and bugs are expected. Feedback is very welcome.
 
 > 💰 **Not free software.** Zombie Foundry includes a **7-day free trial** (just an
-> email address, no credit card). After the trial, continued use requires a license —
-> see the store: [smallsoftwarehouse.gumroad.com](https://smallsoftwarehouse.gumroad.com/).
-> Right now only **Early Access** is being actively promoted; the full plan lineup is
-> on the store page.
+> email address, no credit card). After the trial, continued use requires a license.
+> Right now only **Early Access** is being actively promoted — a discounted Pro
+> license for early buyers: [smallsoftwarehouse.gumroad.com/l/qakjip](https://smallsoftwarehouse.gumroad.com/l/qakjip)
 
 ---
 
