@@ -22,6 +22,19 @@ SteamCMD commands, no scattered files to babysit.
 
 ---
 
+## Guides
+
+**📺 Video walkthrough** — the whole process in one go, from downloading the tool
+to joining your first match on your own server:
+[youtu.be/4Q952M8i1t4](https://youtu.be/4Q952M8i1t4)
+
+**📖 Written guide** — everything Zombie Foundry automates, explained manually and
+step by step, so you can do it all by hand if you prefer:
+[Left 4 Dead 2 — Dedicated Server Complete Guide, on AlliedModders](https://forums.alliedmods.net/showthread.php?t=224404)
+
+
+---
+
 ## Why a terminal app, not a GUI?
 
 Because a dedicated server is something you run in the background and rarely
