@@ -6,6 +6,12 @@
   <img src="assets/title.svg" alt="Zombie Foundry &amp; Friends">
 </p>
 
+<p align="center">
+  <a href="https://github.com/SmallSoftwareHouse/zombie-foundry/releases/latest">
+    <img src="assets/download-button.svg" alt="Download the latest release" width="300">
+  </a>
+</p>
+
 **Zombie Foundry** is a terminal application for installing, configuring
 and running dedicated **Source Engine** game servers — starting with **Left 4 Dead 2**,
 with more games planned. It puts the whole lifecycle of a dedicated server behind a

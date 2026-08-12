@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="60" viewBox="0 0 300 60">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4161c"/>
+      <stop offset="1" stop-color="#8a0d12"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="296" height="56" rx="10" fill="url(#g)" stroke="#e8434a" stroke-width="2"/>
+  <g fill="#ffffff">
+    <path d="M40 20 h6 v13 h8 l-11 12 -11 -12 h8 z"/>
+    <rect x="32" y="47" width="22" height="5" rx="2"/>
+  </g>
+  <text x="170" y="31" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="20" fill="#ffffff">DOWNLOAD</text>
+  <text x="170" y="47" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="12" fill="#ffd9da">latest release</text>
+</svg>
