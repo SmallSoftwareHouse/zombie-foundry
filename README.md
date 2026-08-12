@@ -3,7 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="assets/title.svg" alt="Zombie Foundry &amp; Friends">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title.svg">
+    <img src="assets/title-light.svg" alt="Zombie Foundry &amp; Friends">
+  </picture>
 </p>
 
 <p align="center">
