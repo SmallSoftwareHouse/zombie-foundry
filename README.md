@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SmallSoftwareHouse/zombie-foundry/releases/latest">
+  <a href="https://github.com/SmallSoftwareHouse/zombie-foundry/releases/latest/download/zombiefoundry.exe">
     <img src="assets/download-button.svg" alt="Download the latest release" width="300">
   </a>
 </p>
