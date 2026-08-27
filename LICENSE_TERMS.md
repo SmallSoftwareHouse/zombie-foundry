@@ -1,7 +1,7 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 4 August 2026.
+Last updated: 27 August 2026.
 
 Store: <https://smallsoftwarehouse.gumroad.com/>
 
@@ -19,17 +19,47 @@ Perpetual means what it says: the license does not expire, and there is no
 subscription. The app you have keeps working, with the features your plan
 grants, for as long as you want to use it.
 
-| Plan | Servers you can manage | PRO features |
-|---|---|---|
-| Lite | 1 | no |
-| Pro | up to 3 | yes |
-| Max | unlimited | yes |
+| Plan | Servers you can manage | PRO features | Branding on your server |
+|---|---|---|---|
+| Lite | 1 | no | name tag + MOTD + banner |
+| Pro | up to 3 | yes | banner only |
+| Max | unlimited | yes | none |
 
 PRO features are: setup wizard, async downloads, watchdog, offline players,
 multi-admin.
 
 Your license is identified by your **license key plus the email address you
 used at checkout**. Keep both.
+
+### Branding on your server
+
+Servers you run with Zombie Foundry carry some Zombie Foundry branding,
+depending on your plan. This is part of the price of the lower plans, so it is
+stated here rather than discovered later:
+
+- **Server name** — on Lite (and during the trial) the server name shown in the
+  browser list starts with a short fixed tag, `[ZF] `. It cannot be removed
+  while on those plans. **Pro and Max server names are entirely yours.**
+- **MOTD** — the message players see when they join. On Lite (and trial) it is
+  written by the tool and will be overwritten whenever your server settings are
+  saved, so do not hand-edit it on those plans. **On Pro and Max the MOTD is
+  yours** and the tool does not touch it.
+- **Banner** — the small image above the MOTD. On Lite, trial **and Pro** this
+  shows the Zombie Foundry banner. **On Max you can point it at your own.**
+
+Two things worth knowing about the banner, because they are not obvious:
+
+1. It is **loaded from our website by the player's game** each time they
+   connect. That means we can change what it shows without you updating
+   anything — and that if our site is unreachable, players may briefly see a
+   browser error in that panel instead of the banner. It never affects the game
+   server itself.
+2. On **Max**, supplying your own banner means giving us a **web address of
+   your own** to point at — we do not host images for customers. That address
+   must be a plain `http://` one: the game's built-in browser does not load
+   `https://` addresses, which is a limitation of the game, not of the tool.
+
+None of this collects anything about you or your players.
 
 ## 2. Updates
 
@@ -109,7 +139,7 @@ If self-service transfer is ever unavailable for some reason, write to
 
 ## 8. Trial
 
-A 7-day trial with Pro features on one server is available before you buy. One
+A 15-day trial with Pro features on one server is available before you buy. One
 trial per email address and per computer.
 
 When you decide to buy, enter your trial license key in the optional
@@ -121,10 +151,14 @@ Servers you created during the trial are not deleted if you then buy a smaller
 plan. Note that Lite uses a fixed install folder: servers created in a custom
 folder (a Pro feature) cannot be managed with Lite.
 
+One deliberate exception during the trial: you get Pro **features**, but Lite
+**branding** (see "Branding on your server" above) — trial servers carry the
+`[ZF] ` name tag and a tool-written MOTD. Buying Pro removes both.
+
 ## 9. Refunds
 
-The 7-day trial exists so you can evaluate Zombie Foundry before paying, so we do not
-offer refunds as a matter of course.
+The 15-day trial exists so you can evaluate Zombie Foundry before paying, so we
+do not offer refunds as a matter of course.
 
 Purchases go through our store on **Gumroad**, which acts as merchant of
 record: Gumroad takes the payment, handles any applicable tax and issues the
