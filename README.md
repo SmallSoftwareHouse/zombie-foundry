@@ -24,7 +24,7 @@ SteamCMD commands, no scattered files to babysit.
 > ⚠️ **Beta** — This is an early test build. Features and behaviour may still change,
 > and bugs are expected. Feedback is very welcome.
 
-> 💰 **Not free software.** Zombie Foundry includes a **7-day free trial** (just an
+> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** (just an
 > email address, no credit card). After the trial, continued use requires a license.
 > Right now only **Early Access** is being actively promoted — a discounted Pro
 > license for early buyers: [smallsoftwarehouse.gumroad.com/l/qakjip](https://smallsoftwarehouse.gumroad.com/l/qakjip)
@@ -111,7 +111,7 @@ On first launch Zombie Foundry creates everything it needs right next to itself:
 ## First run
 
 - You will be asked to pick a **language**, then to either enter a **license key**
-  (if you already bought one) or an **email address** to start your **7-day free
+  (if you already bought one) or an **email address** to start your **15-day free
   trial**. After that you're dropped into the main menu.
 - From there, start the **create-server wizard** to install your first server.
 - The executable is **unsigned**, so Windows SmartScreen may show a warning on the
