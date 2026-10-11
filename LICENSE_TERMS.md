@@ -1,7 +1,7 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 9 October 2026.
+Last updated: 11 October 2026.
 
 Store: <https://smallsoftwarehouse.gumroad.com/>
 
@@ -143,18 +143,26 @@ your computer stay the same, and the major version you are entitled to is
 unchanged. Moving to a newer major version is a separate purchase (see
 "Major version upgrades" above).
 
-## 5. Updating the app is your choice
+## 5. Updates: optional and required
 
-You are never forced to update. When a new version exists, Zombie Foundry tells you and
-you decide. If you prefer the version you have, keep it.
+**Most updates are optional.** When a new version exists, Zombie Foundry tells
+you and you decide when to install it.
+
+**Some updates are required.** We mark an update as required when staying on
+the older version would cause problems: for example when it can no longer work
+correctly with the online services the app relies on (the license check, the
+plugin catalogue, the update system), when it fixes a security issue, or when
+it fixes a defect that could damage your servers or your data. We decide this
+case by case.
+
+When an update is required, the app tells you, gives you a short grace period,
+and then asks you to update before you continue. A required update is always
+free, never changes your plan, and keeps your servers and settings as they are.
 
 Previous releases stay available for download at
-[github.com/SmallSoftwareHouse/zombie-foundry/releases](https://github.com/SmallSoftwareHouse/zombie-foundry/releases)
-so you can reinstall an older version if you ever need to.
-
-**One exception**, stated plainly: a version may be blocked, and updating made
-required, only where security makes it necessary. Never for ordinary
-maintenance.
+[github.com/SmallSoftwareHouse/zombie-foundry/releases](https://github.com/SmallSoftwareHouse/zombie-foundry/releases).
+A version older than the required one may no longer start normally: it will
+ask you to update.
 
 ## 6. Internet connection and our commitment to you
 
