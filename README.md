@@ -24,9 +24,11 @@ SteamCMD commands, no scattered files to babysit.
 > ⚠️ **Beta** — This is an early test build. Features and behaviour may still change,
 > and bugs are expected. Feedback is very welcome.
 
-> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** (just an
-> email address, no credit card). After the trial, continued use requires a license.
-> Right now only **Early Access** is being actively promoted — a discounted Pro
+> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** of the
+> Standard plan (just an email address, no credit card). After the trial, continued
+> use requires a license. There are four plans — **Lite, Standard, Pro and Max** —
+> compared in the [license terms](LICENSE_TERMS.md).
+> Right now only **Early Access** is being actively promoted — a discounted Standard
 > license for early buyers: [smallsoftwarehouse.gumroad.com/l/qakjip](https://smallsoftwarehouse.gumroad.com/l/qakjip)
 
 ---
@@ -77,14 +79,20 @@ version isn't ruled out — it will happen if it's actually needed.
   what is running and what needs attention.
 - **Start, stop and monitor.** Launch a server and keep an eye on it without
   leaving the tool.
+- **Plugins from a catalogue.** Pick SourceMod plugins from a list and install
+  them with one key: everything a plugin needs comes with it, and removing it
+  takes its files away again.
+- **Design your own MOTD.** A visual editor in your browser for the welcome
+  page your players see — texts, images, tables, links and ready-made
+  templates — published to the server in one click. The plain text MOTD is
+  still there if you prefer it.
 - **Portable by design.** Everything Zombie Foundry needs is created next to the
   executable, so a server setup can be moved or backed up by copying one folder.
   Note: your license is tied to this specific computer and folder, so moving it
   elsewhere requires re-authorizing it first (the in-app **F2** transfer, from the
   license screen) — otherwise the moved copy won't validate.
 
-> More capabilities (remote console, mod management, and additional games) are on
-> the roadmap.
+> More capabilities, and additional games, are on the roadmap.
 
 ---
 

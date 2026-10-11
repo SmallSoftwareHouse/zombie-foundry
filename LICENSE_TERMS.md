@@ -1,7 +1,7 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 27 August 2026.
+Last updated: 9 October 2026.
 
 Store: <https://smallsoftwarehouse.gumroad.com/>
 
@@ -19,17 +19,40 @@ Perpetual means what it says: the license does not expire, and there is no
 subscription. The app you have keeps working, with the features your plan
 grants, for as long as you want to use it.
 
-| Plan | Servers you can manage | PRO features | Branding on your server |
-|---|---|---|---|
-| Lite | 1 | no | name tag + MOTD + banner |
-| Pro | up to 3 | yes | banner only |
-| Max | unlimited | yes | none |
-
-PRO features are: setup wizard, async downloads, watchdog, offline players,
-multi-admin.
-
 Your license is identified by your **license key plus the email address you
 used at checkout**. Keep both.
+
+There are four plans. Every plan runs on one computer; what changes is below.
+
+### Plans and features
+
+| | Lite | Standard | Pro | Max |
+|---|---|---|---|---|
+| Servers you can manage | 1 | 1 | up to 3 | unlimited |
+| Downloads at the same time | 1 | 1 | 2 | your choice (starts at 3) |
+| Guided setup (Mega Wizard) | — | ✓ | ✓ | ✓ |
+| Automatic restart after a crash (watchdog) | — | ✓ | ✓ | ✓ |
+| Install folder of your choice | — | ✓ | ✓ | ✓ |
+| Manual refresh of the public IP | — | ✓ | ✓ | ✓ |
+| Players: bulk actions, admin filters | — | ✓ | ✓ | ✓ |
+| `[ZF]` tag in the server name | yes | yes | no | no |
+
+### MOTD and banner
+
+The **MOTD** is the panel players see when they join; the **banner** is the
+strip above it.
+
+| | Lite | Standard | Pro | Max |
+|---|---|---|---|---|
+| Text MOTD | ✓, with our two lines on top | ✓, all yours | ✓, all yours | ✓, all yours |
+| MOTD drawn with the editor | — | ✓ | ✓ | ✓ |
+| A page longer than one screen | — | ✓ | ✓ | ✓ |
+| Several pages joined by links (multi-page) | — | — | ✓ | ✓ |
+| Ready-made templates | — | 2 | 5 | 10 |
+| Banner | ours, fixed | ours, or one you draw | ours, one you draw, or a page of yours at an address | as Pro |
+
+The editor is a page that opens in your browser from the app. It works only
+together with Zombie Foundry, which saves your project and publishes it.
 
 ### Branding on your server
 
@@ -37,27 +60,48 @@ Servers you run with Zombie Foundry carry some Zombie Foundry branding,
 depending on your plan. This is part of the price of the lower plans, so it is
 stated here rather than discovered later:
 
-- **Server name** — on Lite (and during the trial) the server name shown in the
-  browser list starts with a short fixed tag, `[ZF] `. It cannot be removed
-  while on those plans. **Pro and Max server names are entirely yours.**
-- **MOTD** — the message players see when they join. On Lite (and trial) it is
-  written by the tool and will be overwritten whenever your server settings are
-  saved, so do not hand-edit it on those plans. **On Pro and Max the MOTD is
-  yours** and the tool does not touch it.
-- **Banner** — the small image above the MOTD. On Lite, trial **and Pro** this
-  shows the Zombie Foundry banner. **On Max you can point it at your own.**
+- **Lite** — the server name
+  starts with a short fixed tag, `[ZF] `; the banner is ours and cannot be
+  changed; our two lines open your text MOTD, which the app writes, so do not
+  hand-edit it.
+- **Standard** — the server name keeps the `[ZF] ` tag. The MOTD is yours,
+  text or drawn. The banner is ours, **unless you draw your own**: then the
+  banner is yours, and in exchange a Zombie Foundry strip appears at the bottom
+  of your drawn MOTD. It stays put while the page scrolls and covers what is
+  under it. Switch back to our banner and the strip goes away.
+- **Pro and Max** — no branding anywhere: name, MOTD and banner are yours.
 
-Two things worth knowing about the banner, because they are not obvious:
+The **trial** has the Standard's features and branding, with one difference:
+its text MOTD keeps our two lines on top, as on Lite.
+
+### What the drawn MOTD needs from you
+
+A drawn MOTD and banner are web pages, and the player's game has to download
+them. **Zombie Foundry serves them from your own computer, through a small web
+server built into the app**, so:
+
+1. **A port must be open on your router** towards the computer running Zombie
+   Foundry. The app tells you which one, tests whether it can be reached from
+   the internet, and has a step-by-step guide. Without it, players do not see
+   the drawn pages.
+2. The pages travel over **your home connection**: the app shows how heavy
+   they are and lets you set a bandwidth limit, shared by all players.
+3. A **text MOTD needs none of this**: it is a plain file the game reads
+   directly.
+
+Two things worth knowing about **our** banner, because they are not obvious:
 
 1. It is **loaded from our website by the player's game** each time they
    connect. That means we can change what it shows without you updating
    anything — and that if our site is unreachable, players may briefly see a
    browser error in that panel instead of the banner. It never affects the game
    server itself.
-2. On **Max**, supplying your own banner means giving us a **web address of
-   your own** to point at — we do not host images for customers. That address
-   must be a plain `http://` one: the game's built-in browser does not load
-   `https://` addresses, which is a limitation of the game, not of the tool.
+2. Using **a page of yours at an address** as the banner (Pro and Max) means
+   you need somewhere to put it — we do not host pages or images for customers.
+   That address must be a plain `http://` one: the game's built-in browser does
+   not load `https://` addresses, which is a limitation of the game, not of the
+   app. The app refuses an `https://` address rather than saving one that would
+   silently never appear.
 
 None of this collects anything about you or your players.
 
@@ -89,8 +133,8 @@ out and you want what it adds.
 
 ## 4. Upgrades between plans
 
-You can move up at any time by paying the price difference (Lite → Pro, Lite →
-Max, Pro → Max). Buy the matching upgrade in our store and enter your existing
+You can move up at any time by paying the price difference: from Lite to
+Standard, Pro or Max; from Standard to Pro or Max; from Pro to Max. Buy the matching upgrade in our store and enter your existing
 license key at checkout: the upgrade is applied to that key, which stays the
 same. If anything goes wrong, write to **SmallSoftwareHouse@gmail.com**.
 
@@ -139,7 +183,7 @@ If self-service transfer is ever unavailable for some reason, write to
 
 ## 8. Trial
 
-A 15-day trial with Pro features on one server is available before you buy. One
+A 15-day trial of the Standard, on one server, is available before you buy. One
 trial per email address and per computer.
 
 When you decide to buy, enter your trial license key in the optional
@@ -149,11 +193,11 @@ the field blank and you get a separate new key instead.
 
 Servers you created during the trial are not deleted if you then buy a smaller
 plan. Note that Lite uses a fixed install folder: servers created in a custom
-folder (a Pro feature) cannot be managed with Lite.
+folder (from the Standard up) cannot be managed with Lite.
 
-One deliberate exception during the trial: you get Pro **features**, but Lite
-**branding** (see "Branding on your server" above) — trial servers carry the
-`[ZF] ` name tag and a tool-written MOTD. Buying Pro removes both.
+During the trial, servers carry the Standard's branding, and a text MOTD keeps
+our two lines on top as on Lite (see "Branding on your server" above). Buying
+the Standard removes those two lines; buying Pro or Max removes all branding.
 
 ## 9. Refunds
 
