@@ -24,12 +24,12 @@ SteamCMD commands, no scattered files to babysit.
 > ⚠️ **Beta** — This is an early test build. Features and behaviour may still change,
 > and bugs are expected. Feedback is very welcome.
 
-> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** of the
-> Standard plan (just an email address, no credit card). After the trial, continued
+> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** that lets
+> you try the Pro's features on one server (just an email address, no credit card). After the trial, continued
 > use requires a license. There are four plans — **Lite, Standard, Pro and Max** —
 > compared in the [license terms](LICENSE_TERMS.md).
-> Right now only **Early Access** is being actively promoted — a discounted Standard
-> license for early buyers: [smallsoftwarehouse.gumroad.com/l/qakjip](https://smallsoftwarehouse.gumroad.com/l/qakjip)
+> Right now only **Early Access** is being actively promoted — the Pro at a launch
+> price for early buyers: [smallsoftwarehouse.gumroad.com/l/qakjip](https://smallsoftwarehouse.gumroad.com/l/qakjip)
 
 ---
 
@@ -82,6 +82,10 @@ version isn't ruled out — it will happen if it's actually needed.
 - **Plugins from a catalogue.** Pick SourceMod plugins from a list and install
   them with one key: everything a plugin needs comes with it, and removing it
   takes its files away again.
+- **Our own plugins.** A "ZF" tab in the plugins screen holds the plugins we
+  make: **Match Report**, the match summary
+  at the end of the round, and **Tank Warning**, which warns you when the
+  Tank's rock may hit you.
 - **Design your own MOTD.** A visual editor in your browser for the welcome
   page your players see — texts, images, tables, links and ready-made
   templates — published to the server in one click. The plain text MOTD is
@@ -124,17 +128,11 @@ On first launch Zombie Foundry creates everything it needs right next to itself:
 - From there, start the **create-server wizard** to install your first server.
 - The executable is **unsigned**, so Windows SmartScreen may show a warning on the
   first launch. Choose **More info → Run anyway**.
-- **Curious about the flag?** We ran the current release through VirusTotal
-  ourselves: **69/71 engines report it clean**. The 2 that don't (Bkav Pro,
-  Trapmine) use generic heuristic/ML labels, not a named malware signature —
-  and the sandbox behavior report shows no actual malicious detection.
-  Microsoft Defender flagged an earlier scan too, but a re-analysis has since
-  cleared it. See the full report and judge for yourself:
-  [VirusTotal report](https://www.virustotal.com/gui/file/ae6bbb5cac51ff03f64500017b07ee4f9c6430cbbf90bf9504dfec07a0b34723/behavior).
-  We've filed false-positive reports with the remaining two vendors, but
-  we're not waiting on their replies to be upfront about this — as a small
-  independent project we may just not be a priority for them to review
-  quickly.
+- **Why the warning?** It comes from the file being unsigned and new, not from
+  anything inside it: antivirus engines are wary of small independent tools
+  they haven't seen many times yet. If you want to check for yourself, upload
+  `zombiefoundry.exe` to [VirusTotal](https://www.virustotal.com) before
+  running it.
 
 ---
 

@@ -1,7 +1,7 @@
 # Zombie Foundry — License Terms
 
 Plain-language terms for what you get when you buy a Zombie Foundry license.
-Last updated: 11 October 2026.
+Last updated: 17 October 2026.
 
 Store: <https://smallsoftwarehouse.gumroad.com/>
 
@@ -30,11 +30,16 @@ There are four plans. Every plan runs on one computer; what changes is below.
 |---|---|---|---|---|
 | Servers you can manage | 1 | 1 | up to 3 | unlimited |
 | Downloads at the same time | 1 | 1 | 2 | your choice (starts at 3) |
+| Admins you can add | 1 | 3 | unlimited | unlimited |
 | Guided setup (Mega Wizard) | — | ✓ | ✓ | ✓ |
-| Automatic restart after a crash (watchdog) | — | ✓ | ✓ | ✓ |
-| Install folder of your choice | — | ✓ | ✓ | ✓ |
+| Configure while it downloads, delete in the background | — | ✓ | ✓ | ✓ |
 | Manual refresh of the public IP | — | ✓ | ✓ | ✓ |
-| Players: bulk actions, admin filters | — | ✓ | ✓ | ✓ |
+| Automatic restart after a crash (watchdog) | — | — | ✓ | ✓ |
+| Install folder of your choice | — | — | ✓ | ✓ |
+| Advanced launch options (extra arguments, cfg files) | — | — | ✓ | ✓ |
+| Offline players (list, filters, permanent ban, admins from offline) | — | — | ✓ | ✓ |
+| Actions on several players at once, ban history | — | — | ✓ | ✓ |
+| Match report at the end of a Survival (needs the built-in web server) | podium | podium | full | full |
 | `[ZF]` tag in the server name | yes | yes | no | no |
 
 ### MOTD and banner
@@ -45,11 +50,14 @@ strip above it.
 | | Lite | Standard | Pro | Max |
 |---|---|---|---|---|
 | Text MOTD | ✓, with our two lines on top | ✓, all yours | ✓, all yours | ✓, all yours |
-| MOTD drawn with the editor | — | ✓ | ✓ | ✓ |
-| A page longer than one screen | — | ✓ | ✓ | ✓ |
+| MOTD drawn with the editor | — | ✓, one screen | ✓ | ✓ |
+| A page longer than one screen | — | — | ✓ | ✓ |
 | Several pages joined by links (multi-page) | — | — | ✓ | ✓ |
 | Ready-made templates | — | 2 | 5 | 10 |
-| Banner | ours, fixed | ours, or one you draw | ours, one you draw, or a page of yours at an address | as Pro |
+| Banner | **ours**, fixed | **ours**, fixed | **yours**: drawn in the editor, or a page of yours at an address | as Pro |
+
+On Pro and Max nothing of ours appears on your server. If you'd like to keep
+the Zombie Foundry banner as a thank-you, you can — it's your choice.
 
 The editor is a page that opens in your browser from the app. It works only
 together with Zombie Foundry, which saves your project and publishes it.
@@ -60,19 +68,29 @@ Servers you run with Zombie Foundry carry some Zombie Foundry branding,
 depending on your plan. This is part of the price of the lower plans, so it is
 stated here rather than discovered later:
 
-- **Lite** — the server name
-  starts with a short fixed tag, `[ZF] `; the banner is ours and cannot be
-  changed; our two lines open your text MOTD, which the app writes, so do not
-  hand-edit it.
-- **Standard** — the server name keeps the `[ZF] ` tag. The MOTD is yours,
-  text or drawn. The banner is ours, **unless you draw your own**: then the
-  banner is yours, and in exchange a Zombie Foundry strip appears at the bottom
-  of your drawn MOTD. It stays put while the page scrolls and covers what is
-  under it. Switch back to our banner and the strip goes away.
+- **Lite** — the server name starts with a short fixed tag, `[ZF] `; the
+  banner is ours and cannot be changed; our two lines open your text MOTD,
+  which the app writes, so do not hand-edit it.
+- **Standard** — the server name keeps the `[ZF] ` tag and the banner is
+  ours. The MOTD is yours, text or drawn; a drawn MOTD is one screen tall.
 - **Pro and Max** — no branding anywhere: name, MOTD and banner are yours.
 
-The **trial** has the Standard's features and branding, with one difference:
-its text MOTD keeps our two lines on top, as on Lite.
+The **trial** tries the Pro's features, on one server and with the Standard's
+branding: the `[ZF] ` tag, our banner, and our two lines on top of a text MOTD.
+The install folder of your choice is not part of the trial.
+
+### Moving to a lower plan
+
+Nothing you made is deleted. What the lower plan does not include is put
+aside or switched off, and comes back if you move up again:
+
+- a drawn MOTD longer than one screen: players get its first screen; the
+  whole project stays in the editor;
+- admins above the plan's number: the first ones stay;
+- a server installed in a folder of your choice: it stays on disk, locked,
+  until you are back on Pro or Max.
+
+The app tells you what changed the first time you open it after the change.
 
 ### What the drawn MOTD needs from you
 
@@ -191,8 +209,10 @@ If self-service transfer is ever unavailable for some reason, write to
 
 ## 8. Trial
 
-A 15-day trial of the Standard, on one server, is available before you buy. One
-trial per email address and per computer.
+A 15-day trial is available before you buy. It lets you try the **Pro's
+features on one server**, without the install folder of your choice, and with
+the Standard's branding (see "Branding on your server" above). One trial per
+email address and per computer.
 
 When you decide to buy, enter your trial license key in the optional
 "License Key" field at checkout: your trial converts to the plan you bought,
@@ -200,12 +220,9 @@ When you decide to buy, enter your trial license key in the optional
 the field blank and you get a separate new key instead.
 
 Servers you created during the trial are not deleted if you then buy a smaller
-plan. Note that Lite uses a fixed install folder: servers created in a custom
-folder (from the Standard up) cannot be managed with Lite.
-
-During the trial, servers carry the Standard's branding, and a text MOTD keeps
-our two lines on top as on Lite (see "Branding on your server" above). Buying
-the Standard removes those two lines; buying Pro or Max removes all branding.
+plan: what that plan does not include is put aside, as described in "Moving to
+a lower plan" above. When the trial ends without a purchase, the app stops
+starting; nothing on your disk is removed.
 
 ## 9. Refunds
 
