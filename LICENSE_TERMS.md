@@ -209,7 +209,7 @@ If self-service transfer is ever unavailable for some reason, write to
 
 ## 8. Trial
 
-A 15-day trial is available before you buy. It lets you try the **Pro's
+A 30-day trial is available before you buy. It lets you try the **Pro's
 features on one server**, without the install folder of your choice, and with
 the Standard's branding (see "Branding on your server" above). One trial per
 email address and per computer.
@@ -226,7 +226,7 @@ starting; nothing on your disk is removed.
 
 ## 9. Refunds
 
-The 15-day trial exists so you can evaluate Zombie Foundry before paying, so we
+The 30-day trial exists so you can evaluate Zombie Foundry before paying, so we
 do not offer refunds as a matter of course.
 
 Purchases go through our store on **Gumroad**, which acts as merchant of

@@ -24,7 +24,7 @@ SteamCMD commands, no scattered files to babysit.
 > ⚠️ **Beta** — This is an early test build. Features and behaviour may still change,
 > and bugs are expected. Feedback is very welcome.
 
-> 💰 **Not free software.** Zombie Foundry includes a **15-day free trial** that lets
+> 💰 **Not free software.** Zombie Foundry includes a **30-day free trial** that lets
 > you try the Pro's features on one server (just an email address, no credit card). After the trial, continued
 > use requires a license. There are four plans — **Lite, Standard, Pro and Max** —
 > compared in the [license terms](LICENSE_TERMS.md).
@@ -83,9 +83,12 @@ version isn't ruled out — it will happen if it's actually needed.
   them with one key: everything a plugin needs comes with it, and removing it
   takes its files away again.
 - **Our own plugins.** A "ZF" tab in the plugins screen holds the plugins we
-  make: **Match Report**, the match summary
-  at the end of the round, and **Tank Warning**, which warns you when the
-  Tank's rock may hit you.
+  make: the **Stripper Map Editor**, to move a map's items from inside the game,
+  **Match Report**, the match summary at the end of the round, and **Tank Warning**,
+  which warns you when the Tank's rock may hit you. They are free software (GPL),
+  the same on every plan, with their source at
+  [zombie-foundry-plugins](https://github.com/SmallSoftwareHouse/zombie-foundry-plugins).
+  From the Pro, the tool also manages who may use the editor.
 - **Design your own MOTD.** A visual editor in your browser for the welcome
   page your players see — texts, images, tables, links and ready-made
   templates — published to the server in one click. The plain text MOTD is
@@ -123,7 +126,7 @@ On first launch Zombie Foundry creates everything it needs right next to itself:
 ## First run
 
 - You will be asked to pick a **language**, then to either enter a **license key**
-  (if you already bought one) or an **email address** to start your **15-day free
+  (if you already bought one) or an **email address** to start your **30-day free
   trial**. After that you're dropped into the main menu.
 - From there, start the **create-server wizard** to install your first server.
 - The executable is **unsigned**, so Windows SmartScreen may show a warning on the
